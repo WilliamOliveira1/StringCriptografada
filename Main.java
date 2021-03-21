@@ -33,7 +33,7 @@ public class Main {
 
             JLabel rotulo1,rotulo2,rotulo3,rotulo4, rotulo5, rotulo6;
 
-            rotulo1 = new JLabel ("Insira uma palavra");
+            rotulo1 = new JLabel ("Insira uma palavra com cinco letras");
             rotulo2 = new JLabel ("String normal: ");
             rotulo3 = new JLabel ("String com separação dos caracteres: ");
             rotulo4 = new JLabel ("Convertendo char para ASII: ");
@@ -45,9 +45,9 @@ public class Main {
             int altura = getContentPane().getSize().height;
 
             //Set position of the components
-            rotulo1.setBounds(largura - 550, altura - 250, 110, 30);
-            textoEntrada.setBounds(largura - 430, altura - 250, 250, 30);
-            botãoInput.setBounds(largura - 150, altura - 250, 100, 30);
+            rotulo1.setBounds(largura - 550, altura - 250, 250, 30);
+            textoEntrada.setBounds(largura - 330, altura - 250, 100, 30);
+            botãoInput.setBounds(largura - 220, altura - 250, 100, 30);
             rotulo2.setBounds(largura - 550, altura - 200, 110, 30);
             rotulo3.setBounds(largura - 550, altura - 170, 250, 30);
             rotulo4.setBounds(largura - 550, altura - 140, 200, 30);
